@@ -69,6 +69,10 @@ div.section a {
     line-height: 2em;
     color: lightcyan;
 }
+div.section a:hover {
+    color: lightgoldenrodyellow;
+}
+
 div.section ul li {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     line-height: 2em;

@@ -5,6 +5,8 @@
         <link rel="stylesheet" href="./styles.css">
         <title>Lalith : Projects</title>
         <link rel="icon" href="./files/lalith-icon.png?" type="image/x-icon">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="./files/ngl.js"></script>
     </head>
 
     <body>
@@ -19,8 +21,22 @@
         </div>
         <h1 class="s-header"><b><u>Projects @ USF</u></b></h1>
         <div class="section">
+            
+            <div class="viewport-contain"><div class="viewport" id="viewport" style="width:400px; height:300px;"></div></div>
+            <script>
+                document.addEventListener("DOMContentLoaded", function () {
+                  var stage = new NGL.Stage("viewport");
+                  stage.loadFile("rcsb://3s7v", {defaultRepresentation: true});
+                });
+            </script>
+            
+            <h1><b>Ongoing:</b> <i>MCPyV Host Interactions</i></h1>
+            <p>I am serving as the project lead for this student-led project hosted by Engineering Biology Core USF. This project is currently ongoing and has a lot to be defined, but we will be working with the Merkel cell polyomavirus (MCPyV) shown to the left in an interactive model. Its protein interactions are not well characterized, which we will be doing computationally, with a focus on what interactions lead to Merkel cell carcinoma. We expect to do genome mining, modeling via PyMol, molecular dynamics models, and more. I would like to thank the EBC team and Dr. Vladimir Uversky for organizing and mentoring the project. I will probably update progress here!</p> 
+            <p style="color:lightblue">To see more on what EBC is doing, follow <a href="https://instagram.com/ebc.usf" target="_blank">@ebc.usf</a> on Instagram!</p>
+        </div>
+        <div class="section">
             <h1>Current Projects TBD</h1>
-            <p>I am in the process of starting two projects with Engineering Biology Core at USF in computational biology, I can't wait to keep you all updated on that!</p> 
+            <p>I am in the process of starting another with Engineering Biology Core at USF in computational biology, I can't wait to keep you all updated on that!</p> 
         </div>
         <h1 class="s-header"><b><u>Past Projects</u></b></h1>
         <p class="s-subtitle"><b>It is important to note that these projects were completed <i>before</i> my professional academic career. While still done with the best of my ability at the time, with the exception of Project STEM, none of these should be considered serious academic research.</b></p>

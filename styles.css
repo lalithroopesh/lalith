@@ -104,3 +104,16 @@ div.section ul li {
     padding-left: 10%;
     padding-right: 10%;
 }
+
+.viewport-contain {
+    float: left;
+    border-radius: 1em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    border-width: 0.6em;
+    border-color:blanchedalmond;
+    border-style:double;
+}
+.viewport {
+    width: 90%;
+}

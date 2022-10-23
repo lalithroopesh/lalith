@@ -26,7 +26,14 @@
             <script>
                 document.addEventListener("DOMContentLoaded", function () {
                   var stage = new NGL.Stage("viewport");
-                  stage.loadFile("rcsb://3s7v", {defaultRepresentation: true});
+                    stage.loadFile("rcsb://3s7v", {defaultRepresentation: true}).then(function(o) {
+                  });
+
+                  //stage.setSpin(true);
+
+                  stage.signals.hovered.add(function (pickingProxy) {
+                    stage.setSpin(true);
+                  });
                 });
             </script>
             

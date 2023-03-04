@@ -105,6 +105,7 @@ div.section ul li {
 }
 
 .viewport-contain {
+    float: left;
     border-radius: 1em;
     margin-right: 2em;
     margin-bottom: 2em;

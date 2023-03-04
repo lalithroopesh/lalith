@@ -80,15 +80,14 @@ div.section ul li {
 }
 
 .biopic {
-    max-width: 80%;
+    max-width: 15%;
+    float: left;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin: 2em;
     border-radius: 1em;
-    border: 3px  white;
-    
+    border-width: 0.6em;
+    border-color:blanchedalmond;
+    border-style:double;
 }
 
 .s-header {
@@ -106,14 +105,23 @@ div.section ul li {
 }
 
 .viewport-contain {
-    float: left;
     border-radius: 1em;
     margin-right: 2em;
     margin-bottom: 2em;
+    margin-top: 2em;
     border-width: 0.6em;
     border-color:blanchedalmond;
     border-style:double;
 }
 .viewport {
     width: 90%;
+}
+
+.rightimage {
+    max-width: 90%;
+    border-radius: 1em;
+    margin: 2em;
+    border-width: 0.6em;
+    border-color:blanchedalmond;
+    border-style:double;
 }

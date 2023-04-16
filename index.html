@@ -3,12 +3,6 @@
 <html>
     <head>
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-H12GVLDSMS"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-        <script>
-            $(document).ready(function(){
-                $('.header').load("header.html");
-            });
-        </script>
         <script>
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
@@ -23,7 +17,15 @@
     </head>
 
     <body>
-        <div id="header"></div>
+        <div class="navbar">
+            <ul>
+                <li><img src="./files/lalith-logo.png" class="nav-logo"></li>
+                <li><a href="./index.html">[Home]</a></li>
+                <li><a href="./projects.html">[Projects]</a></li>
+                <li><a href="./involvement.html">[Involvement]</a></li>
+                <li><a href="./contact.html">[Contact Me]</a></li>
+            </ul>
+        </div>
         <div class="section">
             <img class="biopic" src="./files/lalith-headshot.png">
             <div class="column2">

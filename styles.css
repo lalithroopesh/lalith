@@ -37,6 +37,10 @@ div.navbar li a:hover {
     color:blanchedalmond;
 }
 
+.nav-logo {
+    max-height: 1.3em;
+}
+
 .row {
     display: flex;
   }

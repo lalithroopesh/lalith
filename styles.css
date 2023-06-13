@@ -1,6 +1,6 @@
 body {
     font-family: monospace;
-    background-color: lightslategray;
+    background-color: rgb(59,67,76) !important;
     background: url("./files/bg-pattern.png");
 
     background-attachment: fixed;

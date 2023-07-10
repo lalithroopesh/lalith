@@ -1,5 +1,5 @@
-https://www.lalith.org/index.html
-https://www.lalith.org/projects.html
-https://www.lalith.org/involvement.html
-https://www.lalith.org/contact.html
-https://www.lalith.org/cv.html
+https://www.lalith.org/index
+https://www.lalith.org/projects
+https://www.lalith.org/involvement
+https://www.lalith.org/contact
+https://www.lalith.org/cv

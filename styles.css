@@ -123,6 +123,7 @@ div.section a {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     line-height: 2em;
     color: lightcyan;
+    transition-duration: 0.3s;
 }
 div.section a:hover {
     color: lightgoldenrodyellow;

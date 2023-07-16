@@ -9,36 +9,49 @@ body {
     background-size: cover;
 }
 
+div.navbar {
+    background-color: rgb(0, 0, 0);
+    padding: 1em;
+}
+
 div.navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
 }
   
 div.navbar li {
     float: left;
     display: block;
-    max-height:100%;
+    align-items: center;
+    height: 100% !important;
     color:rgb(144, 162, 181);
     font-size: 1.5em;
-    text-align: center;
-    padding: 1em 1.2em;
 }
-  
-div.navbar li a {
+
+div.navbar li.rnav a {
     color: white;
     text-decoration: none;
+    padding: 0.5em 1em 0.5em 1em;
+    transition-duration: 0.4s;
 }
   
-div.navbar li a:hover {
+div.navbar li.rnav a:hover {
     background-color: #333;
     color:blanchedalmond;
+    font-size: 1.1em;
+    vertical-align: middle;
 }
 
 .nav-logo {
-    max-height: 1.5em;
+    float: left;
+    max-height: 2em;
+    padding-right: 1em;
 }
 
 .row {
@@ -52,7 +65,38 @@ div.navbar li a:hover {
 }
 .column2 {
     flex: 80%;
+    display: flex;
 }
+
+.typewriter {
+    width: 15em;
+}
+
+.typewriter h1 {
+    color: #fff;
+    font-family: monospace;
+    float:left;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid lightblue; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .1em; /* Adjust as needed */
+    animation: 
+      typing 2.3s steps(30, end),
+      blink-caret 1s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 180% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: lightblue }
+  }
 
 
 div.section {
@@ -62,7 +106,14 @@ div.section {
     padding: 2em 2em;
     color:white;
     overflow: hidden;
+    transition-duration: 1s;
 }
+
+div.section:hover {
+    background-color: #252525;
+}
+
+
 div.section p {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     line-height: 2em;
@@ -84,9 +135,9 @@ div.section ul li {
 }
 
 .biopic {
-    max-width: 15%;
-    float: left;
-    display: block;
+    float:left;
+    max-height: 20em;
+    width: auto;
     margin: 2em;
     border-radius: 1em;
     border-width: 0.6em;

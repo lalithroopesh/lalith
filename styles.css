@@ -110,7 +110,7 @@ div.section {
 }
 
 div.section:hover {
-    background-color: #252525;
+    background-color: #282828;
 }
 
 
@@ -167,8 +167,14 @@ div.section ul li {
     margin-top: 2em;
     border-width: 0.6em;
     border-color:blanchedalmond;
+    transition-duration: 0.4s;
     border-style:double;
 }
+
+.viewport-contain:hover {
+    border-color:lightblue;
+}
+
 .viewport {
     width: 90%;
 }
@@ -179,6 +185,7 @@ div.section ul li {
     margin: 2em;
     border-width: 0.6em;
     border-color:blanchedalmond;
+    transition-duration: 0.4s;
     border-style:double;
 }
 

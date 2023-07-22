@@ -26,8 +26,16 @@
             </ul>
         </div>
         <div class="section">
-            <h1>Redirecting in 3 seconds...</h1>
+            <h1 id="timer">Redirecting in 3 seconds...</h1>
             <p>If you are not redirected, please click <a href="./files/lalithroopesh-cv.pdf">here.</a></p>
+            <script>
+                async function reduceTo(n, element) {
+                    element.innerHTML = "Redirecting in "+n+" seconds...";
+                }
+                t = document.getElementById("timer");
+                setTimeout(function () {reduceTo(2, t)}, 1000);
+                setTimeout(function () {reduceTo(1, t)}, 2000);
+            </script>
         </div>
     </body>
 </html>

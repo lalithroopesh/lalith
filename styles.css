@@ -192,6 +192,15 @@ div.section ul li {
     width: 90%;
 }
 
+.regimg {
+    max-width: 90%;
+    border-radius: 1em;
+    margin: 2em;
+    border-width: 0.6em;
+    border-color:blanchedalmond;
+    border-style:double;
+}
+
 .clickableimg {
     max-width: 90%;
     border-radius: 1em;

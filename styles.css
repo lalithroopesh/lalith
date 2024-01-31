@@ -153,7 +153,12 @@ div.section ul li {
     color: #e8e8e8;
     font-size: 3em;
     text-align: center;
+    transition-duration: 0.3s;
 }
+.s-header:hover {
+    color: #ffffff;
+}
+
 .s-subtitle {
     color: #e8e8e8;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -161,6 +166,10 @@ div.section ul li {
     text-align: center;
     padding-left: 10%;
     padding-right: 10%;
+    transition-duration: 0.3s;
+}
+.s-subtitle:hover {
+    color: #ffffff;
 }
 
 .viewport-contain {

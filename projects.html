@@ -3,6 +3,7 @@
 <html>
     <head>
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-H12GVLDSMS"></script>
+        <script src="./files/shuffle-letters.js"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
@@ -29,7 +30,22 @@
             </ul>
         </div>
         <h1 class="s-header"><b><u>Projects @ USF</u></b></h1>
+        <script>
+            shuffleLetters(document.querySelector('h1'), {
+                text: 'Projects @ USF',
+                fps: 20,
+                iterations: 12
+            }); 
+        </script>
         <p class="s-subtitle" ><b>Note: This section may not be updated as I focus on building a better website. For the most accurate information, please see <a style="color:lightgrey" href="./files/lalithroopesh-cv.pdf" target="_blank">my CV</a>.</b></p>
+
+        <div class="section">
+            <h1>Investigation of expressional factors related to neuroendocrine differentiation of Merkel cell carcinoma</h1>
+            <h2><i>February 2023 - February 2024: </i>Wet Lab Research Assistant</h2>
+            <p>Merkel cell polyomavirus (MCPyV) is a ubiquitous skin virus that is linked to the transformation of skin fibroblasts to polyomavirus-induced Merkel cell carcinoma (MCCP), which shows a Merkel-like neuroendocrine phenotype. While previous studies have indicated the expression of its small and large tumor antigens (sT and LT) and atonal growth hormone (ATOH1) as necessary for the transformation process, the molecular mechanism and environmental requirements remain unclear. Research in other neuroendocrine-differentiated cancers has implicated p53 and pRb in suppressing cell lineage plasticity, both of which are typically suppressed in MCCP tumors and will need to be evaluated. To this end, we produced a custom lentivirus with sT, LT, and ATOH1 genes that validates successful infection and transformation of fibroblast and cuSCC models, eliminating confounding genes present in MCPyV. By using both p53 -/- and skin fibroblasts alongside Rb1 inhibition via siRNA, we may elucidate which additional factors are important to MCCP neuroendocrine differentiation. This work adds a perspective on viral oncogenesis of MCPyV and novel methods of studying cancer.</p>
+            <p style="color:lightblue">To learn more about what my lab is doing, please visit <a href="http://www.kytsai.com/" target="_blank">our website</a>!</p>
+        </div>
+
         <div class="section">
             <div style="max-width:35%;float:right;max-height:100%;"><a href="./files/neuro-poster-castle.pdf" target="_blank"><img class="clickableimg" src="./files/neuro-poster-castle-1.png"></a></div>
             <h1>An <i>In Silico</i> Comparative Study of Interspecies Variability in Neurotransmitter Ligand-Receptor Interactions</h1>

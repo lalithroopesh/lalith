@@ -214,3 +214,39 @@ div.section ul li {
 .clickableimg:hover {
     border-color:lightblue;
 }
+
+
+
+
+.section .wikitable ,th,td {
+    border: 1px solid;
+}
+
+.section .wikitable th {
+    padding: 1em;
+    background-color: black;
+}
+.section .wikitable td {
+    padding: 0.6em;
+}
+
+.section .wikitable p,th,td {
+    font-family:'Courier New', Courier, monospace;
+    line-height: 1em;
+    font-size: 1em;
+    color:rgb(255, 255, 255);
+}
+
+.section .wikitable a {
+    font-family:'Courier New', Courier, monospace;
+    font-weight:bold;
+    line-height: 1em;
+    font-size: 1em;
+    text-decoration: none; 
+    color: lightblue;
+    transition-duration: 0.3s;
+}
+
+.section .wikitable a:hover {
+    color: blanchedalmond;
+}
